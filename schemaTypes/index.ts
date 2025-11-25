@@ -6,9 +6,17 @@ import person from './person'
 import screening from './screening'
 import plotSummary from './plotSummary'
 import plotSummaries from './plotSummaries'
+import homePage from "./homePage";
+import teamMember from './teamMember' 
+import clinic from './clinic'  
+import faq from './faq'
 
 export const schemaTypes = [
   // Document types
+  homePage,
+  teamMember,
+  clinic,
+  faq,
   movie,
   person,
   screening,
